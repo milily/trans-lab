@@ -15,13 +15,13 @@
 	<!-- Mi archivo CSS -->
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="grey lighten-1">
 	<!--PROFILE MENU-->
 	<nav class="blue-grey darken-4">
     <!--SIDE NAVBAR-->
         <ul id="slide-out" class="side-nav">
 		    <li><a href="ver_saldo.html"><i class="material-icons orange-text">attach_money</i>Ver saldo</a></li>
-		    <li><a href="calcular.html"><i class="material-icons orange-text">apps</i>Calcular Tarifa</a></li>
+		    <li><a href="#!"><i class="material-icons orange-text">apps</i>Calcular Tarifa</a></li>
 		    <li><a href="profile.html"><i class="material-icons orange-text">perm_identity</i>Perfil</a></li>
 		    <li><a href="questions.html"><i class="material-icons orange-text">toc</i>Preguntas Frecuentes</a></li>
 		    <li><a href="options.html"><i class="material-icons orange-text">arrow_forward</i>Home</a></li>		    
@@ -29,22 +29,21 @@
   		<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons white-text">menu</i></a>
   		<p class="white-text center">TRANS-LAB</p>
     </nav>
-    <!-- BUTTONS -->
+    <!-- INPUT CARD NUMBER-->
     <section class="container">
-    	<form class="row">
-        	<div class="input-field col s12 center">
+    	<div class="row">
+        	<input class="transparent" placeholder="Número de tarjeta">
+	  		<div class="input-field col s12 center">
 		        <button class="btn waves-effect orange" type="submit" name="action">VER SALDO</button>
 	  		</div>
-	  		<div class="input-field col s12 center">
-		        <button class="btn waves-effect orange" type="submit" name="action">CALCULAR TARIFA</button>
-	  		</div>
-	  		<div class="input-field col s12 center">
-		        <button class="btn waves-effect orange" type="submit" name="action">PERFIL</button>
-	  		</div>
-	  		<div class="input-field col s12 center">
-		        <button class="btn waves-effect orange" type="submit" name="action">PREGUNTAS FRECUENTES</button>
-	  		</div>
-  		</form>
+  		</div>
+  		<!-- SELECT FAVORITE CARD-->
+		<select class="browser-default">
+		    <option value="" disabled selected>Tarjetas Guardadas</option>
+		    <option value="1">Option 1</option>
+		    <option value="2">Option 2</option>
+		    <option value="3">Option 3</option>
+		</select>
     </section>
 	<!-- Compiled and minified jQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
