@@ -15,45 +15,35 @@
 	<!-- Mi archivo CSS -->
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body class="orange">
+<body class="grey lighten-1">
 	<!--PROFILE MENU-->
 	<nav class="blue-grey darken-4">
     <!--SIDE NAVBAR-->
         <ul id="slide-out" class="side-nav">
 		    <li><a href="#!"><i class="material-icons orange-text">attach_money</i>Ver saldo</a></li>
 		    <li><a href="#!"><i class="material-icons orange-text">apps</i>Calcular Tarifa</a></li>
-		    <li><a href="#!"><i class="material-icons orange-text">perm_identity</i>Perfil</a></li>
+		    <li><a href="profile.html"><i class="material-icons orange-text">perm_identity</i>Perfil</a></li>
 		    <li><a href="#!"><i class="material-icons orange-text">toc</i>Preguntas Frecuentes</a></li>
-		    <li><a href="index.html"><i class="material-icons orange-text">arrow_forward</i>Home</a></li>		    
+		    <li><a href="#!"><i class="material-icons orange-text">arrow_forward</i>Home</a></li>		    
 		</ul>
   		<a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons white-text">menu</i></a>
   		<p class="white-text center">TRANS-LAB</p>
     </nav>
-    <!-- PROFILE IMAGE -->
+    <!-- INPUT CARD NUMBER-->
     <section class="container">
-    	<div class="row center-align">
-    		<a href="#!user"><img class="responsive-img circle profile-img" src="img/generic_profile.jpg"></a>
-    	</div>
-    </section>
-    <section class="container grey">
-    	<div class="row white">
-    		<div class="input-field col s12">
-                <input type="text" required="required" class="validate" placeholder="mail localstorage">
-            </div>
-    	</div>
-    	<div class="row white">
-            <div class="input-field col s12">
-                <input type="" required="required" class="validate" placeholder="Número de tarjeta">
-            </div>
-        </div>
-        <!-- BUTTON INPUT -->
-        <div class="row">
-        	<div class="input-field col s12 center">
-		        <button class="btn waves-effect orange" type="submit" name="action">AGREGAR TARJETA
-		    		<i class="material-icons">send</i>
-		  		</button>
+    	<div class="row">
+        	<input class="transparent" placeholder="Número de tarjeta">
+	  		<div class="input-field col s12 center">
+		        <button class="btn waves-effect orange" type="submit" name="action">VER SALDO</button>
 	  		</div>
   		</div>
+  		<!-- SELECT FAVORITE CARD-->
+		<select class="browser-default">
+		    <option value="" disabled selected>Tarjetas Guardadas</option>
+		    <option value="1">Option 1</option>
+		    <option value="2">Option 2</option>
+		    <option value="3">Option 3</option>
+		</select>
     </section>
 	<!-- Compiled and minified jQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
