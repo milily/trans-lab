@@ -14,6 +14,9 @@ body{
 	margin-top: 30px;
 	border-radius: 10px;
 }
+#slide-out{
+	padding-top: 50px;
+}
 .material{
 	position: relative;
 	top: 30px;
@@ -39,4 +42,37 @@ body{
 }
 .opciones{
 	margin-top: 30px;
+}
+.profile-img{
+	margin-top: 100px;
+	width: 200px;
+}
+.tarjetas_listas{
+	margin-top: 100px;
+	width: 85%;
+	height: 600px;
+	border-radius: 30px;
+}
+.input-mail-tarjeta{
+	position: relative;
+	left: 90px;
+	top: 150px;
+	width: 80%;
+	margin-top: 50px;
+	border-radius: 10px;
+}
+#boton-agregar-tarjeta{
+	margin-top: 180px;
+	font-size: 20px;
+}
+.added-card{
+	position: relative;
+	left: 280px;
+	top: 30px;
+}
+.card-card{
+	margin-top: 10px;
+}
+.orange-card{
+	border-radius: 15px;
 }

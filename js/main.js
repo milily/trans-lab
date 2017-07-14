@@ -21,19 +21,21 @@ $(document).ready(function(){
 
 	$("#boton-agregar-tarjeta").on('click', function(){
 		
-		var rescatar_tarjeta = $('#input-tarjeta').val();
+		var rescatar_tarjeta = $('#input-tarjeta-agregada').val();
 		console.log(rescatar_tarjeta);
 
-		$("#tarjetas_agregadas").append(`   <div  class="col s12">
-					            				<div class="col s4 orange white-text center-align">
+		$("#tarjetas_agregadas").append(`   <div  class="col s12 card-card">
+					            				<div class="col s4 orange white-text center-align orange-card">
 					            					`+ rescatar_tarjeta +`
 					            				</div>
 					            			</div>
 					                    `)
 			
+		$('#input-tarjeta-agregada').val("");
 			
 		});
 
+		
 
 	/* VER SALDO */
 
