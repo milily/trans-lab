@@ -33,9 +33,6 @@
     <section class="container">
     	<div class="row">
         	<input id="input-numero-tarjeta" class="transparent" placeholder="Número de tarjeta">
-	  		<div id="input-saldo" class="input-saldo col s12 center">
-		        <button id="button-ver-saldo" class="btn waves-effect orange" type="submit" name="action">VER SALDO</button>
-	  		</div>
   		</div>
   		<!-- SELECT FAVORITE CARD-->
 		<select id="select-numero-tarjeta" class="browser-default">
@@ -44,12 +41,19 @@
 		    <option value="2">Option 2</option>
 		    <option value="3">Option 3</option>
 		</select>
-		<div class="row">
-			<div id="mostrar-saldos" class="input-field col s6">
-				
-			</div>
-		</div>
     </section>
+    <section class="container">
+    	<div class="row">
+	  		<div class="col s12 center">
+		        <button id="button-ver-saldo" class="btn waves-effect orange" type="submit" name="action">VER SALDO</button>
+	  		</div>
+  		</div>
+  	</section>
+  	<section class="container">
+	    	<div id="mostrar-saldos" class="row">
+				<!-- AQUÍ SE MUESTRA EL SALDO DE LA TARJETA-->
+			</div>
+	</section>
 	<!-- Compiled and minified jQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
