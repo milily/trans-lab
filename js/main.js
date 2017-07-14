@@ -1,6 +1,8 @@
 /* Holiii acá va tu código también */
 $(document).ready(function(){
 
+	/* VALIDACIÓN DE FORMULARIO */
+	var contrasenia = /[0-9]/;
 	var valEmail = /^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/;
 	    $("#btn-inicio-sesion").click(function (){
 	        if( $("#input.email").val() == "" || !valEmail.test($("#input-email").val()) ){
@@ -14,8 +16,24 @@ $(document).ready(function(){
       	}
 
 	  }); 
-  	
 
+	/* AGREGAR TARJETAS */
+
+	$("#boton-agregar-tarjeta").on('click', function(){
+		
+		var rescatar_tarjeta = $('#input-tarjeta').val();
+		console.log(rescatar_tarjeta);
+
+		$("#tarjetas_agregadas").append(`   <div  class="col s12">
+					            				<div class="col s4 orange white-text center-align">
+					            					`+ rescatar_tarjeta +`
+					            				</div>
+					            			</div>
+					                    `)
+			
+			
+		}
+	);
 
    $("#button-ver-saldo").on('click',function(){
        
