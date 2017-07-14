@@ -14,11 +14,29 @@ body{
 	margin-top: 30px;
 	border-radius: 10px;
 }
-.material-icons{
+.material{
 	position: relative;
 	top: 30px;
 	font-size: 30px;
 }
 .boton-input{
 	margin-top: 100px;
+}
+.nav-trans{
+	font-size: 25px;
+}
+.mover-botones{
+	margin-top: 100px;
+}
+.botones{
+	position: relative;
+	top: 5px;
+	width: 50%;
+	height: 60px;
+	border-radius: 10px;
+	color: white;
+	font-size: 20px;
+}
+.opciones{
+	margin-top: 30px;
 }
