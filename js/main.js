@@ -32,8 +32,10 @@ $(document).ready(function(){
 					                    `)
 			
 			
-		}
-	);
+		});
+
+
+	/* VER SALDO */
 
    $("#button-ver-saldo").on('click',function(){
        
@@ -69,7 +71,7 @@ $(document).ready(function(){
  
 
 
-  //MENU HAMBURGUESA
+  /* MENU HAMBURGUESA */
   $('.button-collapse').sideNav();
-  // Hide sideNav
+ 
   

@@ -5,5 +5,20 @@
 }
 body{
 	font-family: 'Maiden Orange', cursive;
+}
 
+.container-sign-up{
+	margin-top: 300px;
+}
+.input-field{
+	margin-top: 30px;
+	border-radius: 10px;
+}
+.material-icons{
+	position: relative;
+	top: 30px;
+	font-size: 30px;
+}
+.boton-input{
+	margin-top: 100px;
 }
